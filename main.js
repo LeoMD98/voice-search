@@ -57,7 +57,7 @@ if(SpeechRecognition) {
       searchFormInput.value = transcript;
     }
     else {
-      if(transcript.toLowerCase().trim()==="Busca múltiple") {
+      if(transcript.toLowerCase().trim()==="Busca multiple") {
         window.open('https://segundamano.mx/anuncios/mexico?q='+searchFormInput.value);
  
           window.open('https://www.playstation.com/es-mx/search/?q='+searchFormInput.value);
@@ -85,7 +85,7 @@ if(SpeechRecognition) {
         window.open('https://www2.hm.com/es_mx/search-results.html?q='+searchFormInput.value);
       }
       else if (transcript.toLowerCase().trim()==="salir del sitio"){      
-        window.alert("¿Estás seguro?");
+        window.alert("¿Estás seguro de querer salir?");
         window.close();
       }
       else {
