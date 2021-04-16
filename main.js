@@ -81,7 +81,7 @@ if(SpeechRecognition) {
       else if (transcript.toLowerCase().trim()==="bodega"){
         window.open('https://www.bodegaaurrera.com.mx/productos?Ntt='+searchFormInput.value);
       }
-      else if (transcript.toLowerCase().trim()==="ache y eme"){
+      else if (transcript.toLowerCase().trim()==="h&m"){
         window.open('https://www2.hm.com/es_mx/search-results.html?q='+searchFormInput.value);
       }
       else if (transcript.toLowerCase().trim()==="salir del sitio"){      
