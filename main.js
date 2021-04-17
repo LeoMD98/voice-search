@@ -57,7 +57,7 @@ if(SpeechRecognition) {
       searchFormInput.value = transcript;
     }
     else {
-      if(transcript.toLowerCase().trim()==="búsqueda múltiple") {
+      if(transcript.toLowerCase().trim()==="busca múltiple") {
         window.open('https://segundamano.mx/anuncios/mexico?q='+searchFormInput.value);
  
           window.open('https://www.playstation.com/es-mx/search/?q='+searchFormInput.value);
