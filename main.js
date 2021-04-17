@@ -50,14 +50,14 @@ if(SpeechRecognition) {
     const current = event.resultIndex;
     const transcript = event.results[current][0].transcript;
     
-    if(transcript.toLowerCase().trim()==="Ayuda del sitio") {
+    if(transcript.toLowerCase().trim()==="ayuda del sitio") {
       window.open('ayuda.html', '__blank');
     }
     else if(!searchFormInput.value) {
       searchFormInput.value = transcript;
     }
     else {
-      if(transcript.toLowerCase().trim()==="Busca multiple") {
+      if(transcript.toLowerCase().trim()==="búsqueda múltiple") {
         window.open('https://segundamano.mx/anuncios/mexico?q='+searchFormInput.value);
  
           window.open('https://www.playstation.com/es-mx/search/?q='+searchFormInput.value);
